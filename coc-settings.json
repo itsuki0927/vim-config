@@ -1,0 +1,161 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "Markdown",
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact",
+    "css",
+    "less",
+    "scss",
+    "html",
+    "json",
+    "vue"
+  ],
+  "coc.preferences.extensionUpdateCheck": "daily",
+
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+
+  "diagnostic.virtualTextPrefix": " ❯❯❯ ",
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.virtualText": true,
+  "diagnostic.signPriority": 1,
+  "diagnostic.enableSign": true,
+
+  "signature.target": "float",
+
+  "suggest.noselect": true,
+  "suggest.enablePreselect": false,
+  "suggest.enablePreview": true,
+  "suggest.maxPreviewWidth": 200,
+  "suggest.detailMaxLength": 200,
+  "suggest.detailField": "menu",
+  // snippet 提示前缀
+  "suggest.snippetIndicator": "~",
+  "suggest.triggerAfterInsertEnter": true,
+  "suggest.removeDuplicateItems": false,
+  "suggest.triggerCompletionWait": 100,
+  "suggest.echodocSupport": true,
+
+  "dialog.maxHeight": 50,
+  "list.nextKeymap": "<C-j>",
+  "list.previousKeymap": "<C-k>",
+  "list.maxPreviewHeight": 20,
+
+  // prettier 配置
+  "prettier.printWidth": 100,
+  // jsx单引号
+  "prettier.jsxSingleQuote": true,
+  // 去除分号
+  "prettier.semi": false,
+  // 字符串单引号
+  "prettier.singleQuote": true,
+  "prettier.jsxBracketSameLine": false,
+  // 箭头函数单个参数省略()
+  "prettier.arrowParens": "avoid",
+  // 1 tab == 2 空格
+  "prettier.tabWidth": 2,
+  // { a: 1 }
+  "prettier.bracketSpacing": true,
+  "prettier.endOfLine": "auto",
+  // 尾逗号
+  "prettier.trailingComma": "all",
+
+  // explorer
+  "explorer.width": 30,
+  "explorer.sources": [
+    {
+      "name": "buffer",
+      "expand": false
+    },
+    {
+      "name": "file",
+      "expand": true
+    }
+  ],
+  "explorer.file.column.indent.indentLine": true,
+  "explorer.git.showIgnored": true,
+  "explorer.buffer.showHiddenBuffers": false,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": "labeling",
+  "explorer.file.showHiddenFiles": true,
+  "explorer.file.git.showUntrackedFiles": true,
+  "explorer.quitOnOpen": true,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  },
+
+  // snippets
+  // "snippets.userSnippetsDirectory": "~/.config/nvim/snips/",
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+
+  "snippets.extends": {
+    "html": ["javascript"],
+    "javascript": ["javascript", "javascriptreact"],
+    "typescript": ["javascript", "typescript", "typescriptreact"],
+    "javascriptreact": ["javascriptreact", "javascript"],
+    "typescriptreact": ["typescript", "javascript", "typescriptreact"]
+  },
+
+  "codeLens.enable": true,
+
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+
+  "cSpell.userWords": [
+    "Cascader",
+    "Csrf",
+    "Nerdfont",
+    "Parens",
+    "Popconfirm",
+    "antd",
+    "clearfix",
+    "dtos",
+    "floaterm",
+    "gruvbox",
+    "noselect",
+    "nvim",
+    "proto",
+    "sheerun",
+    "typeof",
+    "ultisnips",
+    "vsplit"
+  ],
+
+  "diagnostic.errorSign": "\uf467",
+  "diagnostic.warningSign": "\uf071",
+  "diagnostic.infoSign": "\uf129",
+  "diagnostic.hintSign": "\uf864",
+  "suggest.completionItemKindLabels": {
+    "class": "\uf0e8",
+    "color": "\ue22b",
+    "constant": "\uf8fe",
+    "default": "\uf29c",
+    "enum": "\uf435",
+    "enumMember": "\uf02b",
+    "event": "\ufacd",
+    "field": "\uf93d",
+    "file": "\uf723",
+    "folder": "\uf115",
+    "function": "\u0192",
+    // "interface": "\uf417",
+    "interface": "\ufa5d",
+    "keyword": "\uf1de",
+    "method": "\uf6a6",
+    "module": "\uf40d",
+    "operator": "\uf915",
+    "property": "\ue624",
+    "reference": "\ufa46",
+    "snippet": "\ue60b",
+    "struct": "\ufb44",
+    "text": "\ue612",
+    "typeParameter": "\uf728",
+    "unit": "\uf475",
+    "value": "\uf89f",
+    "variable": "\ue71b"
+  }
+}
