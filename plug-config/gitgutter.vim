@@ -30,6 +30,7 @@ highlight GitGutterDelete guifg=#fb4934 ctermfg=1
 nnoremap H :GitGutterPreviewHunk<CR>
 nnoremap <LEADER>g- :GitGutterPrevHunk<CR>
 nnoremap <LEADER>g= :GitGutterNextHunk<CR>
+nnoremap <LEADER>gu :G<CR>
 
 omap ih <Plug>(GitGutterTextObjectInnerPending)
 omap ah <Plug>(GitGutterTextObjectOuterPending)
